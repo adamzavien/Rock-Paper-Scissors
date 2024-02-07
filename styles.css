@@ -1,0 +1,68 @@
+/* Global styles */
+body {
+    /* Set font and basic styles */
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    margin: 0;
+    /* Flex layout for centering content */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Styles for main heading */
+h1 {
+    font-size: 3.5rem;
+    color: hsl(0, 0%, 20%);
+}
+
+/* Styles for game choices */
+.choices {
+    margin-bottom: 30px;
+}
+
+.choices button {
+    /* Button styles */
+    font-size: 7.5rem;
+    min-width: 160px;
+    margin: 0 10px;
+    border-radius: 250px;
+    background-color: hsl(200, 100%, 50%);
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+.choices button:hover {
+    /* Hover effect for buttons */
+    background-color: hsl(200, 100%, 70%);
+}
+
+/* Styles for player and computer displays */
+#playerDisplay,
+#computerDisplay {
+    font-size: 2.5rem;
+}
+
+/* Styles for result display */
+#resultDisplay {
+    font-size: 5rem;
+    margin: 30px 0;
+}
+
+/* Styles for score displays */
+.scoreDisplay {
+    font-size: 2rem;
+}
+
+/* Text color styles */
+.greenText,
+#playerScoreDisplay {
+    color: rgb(48, 209, 48);
+    /* Green color */
+}
+
+.redText,
+#computerScoreDisplay {
+    color: tomato;
+    /* Red color */
+}
